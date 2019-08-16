@@ -1,3 +1,12 @@
+``` bash
+$ yarn run build
+
+$ s3cmd sync build/* s3://www.kipja.com
+```
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
