@@ -19,7 +19,7 @@ function App() {
           <P5Wrapper sketch={sketch} />
         </div>
         <p> Welcome to Matthew Coming's website!</p>
-        <p> He's trying his best</p>
+        <p> He's trying his best.</p>
       </header>
         <Tabs defaultTab="About" vertical style={{"align-items": "left"}}>
 
@@ -42,8 +42,7 @@ function App() {
           	<ul className="tabul">
               <li>C++, Java, JavaScript, LaTeX</li>
               <li>Ubuntu, CentOS</li>
-              <li>Vim, Intellij IDEA</li>
-              <li>React, p5.js</li>
+              <li>React, CesiumJS, p5.js</li>
               <li>Amazon Web Services, Git</li>
             </ul>
         	</TabPanel>
@@ -51,13 +50,6 @@ function App() {
         	<TabPanel tabId="Interests">
           	<ul className="tabul">
               <li><a href="https://www.buildtamu.com/">TAMU Build</a></li>
-            </ul>
-        	</TabPanel>
-
-        	<TabPanel tabId="Projects">
-            <ul className="tabul">
-              <li>Spotiflower... in development</li>
-              <li>Lots of TAMU C++ Projects... Link soon</li>
             </ul>
         	</TabPanel>
 
