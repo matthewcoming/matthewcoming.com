@@ -21,8 +21,8 @@
 /* Add a black background color to the top navigation */
 .topnav {
   width: 100%;
-  //background-color: #333;
   overflow: visible;
+  border-top: 0in
 }
 
 /* Style the links inside the navigation bar */
@@ -99,7 +99,6 @@ ul {
   background-color: rgba(0,0,0,.25);
 }
 
-// get rid of firefox ugly dotted lines around buttons
 :focus {outline:none;}
 ::-moz-focus-inner {border: 0;}
 

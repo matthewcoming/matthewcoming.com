@@ -1,14 +1,14 @@
 {
-  "name": "app",
+  "name": "matthewcoming.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "babel": "^6.23.0",
-    "p5": "^0.9.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-p5-wrapper": "^2.0.0",
-    "react-scripts": "3.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-p5-wrapper": "^2.3.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-three-fiber": "^5.3.18",
     "react-web-tabs": "^1.0.1"
   },
   "scripts": {
@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn run build && s3cmd sync --delete-removed ./build/* s3://kipja.com && s3cmd put -m \"text/css\" build/static/css/*.css s3://kipja.com/static/css/ && echo '🚀  Deployed!'"
+    "deploy": "react-scripts build && s3cmd sync --delete-removed ./build/* s3://kipja.com && s3cmd put -m \"text/css\" build/static/css/*.css s3://kipja.com/static/css/ && echo '🚀  Deployed!'"
   },
   "eslintConfig": {
     "extends": "react-app"
